@@ -13,25 +13,7 @@ B.Sc. Industrial Mathematics (Computer Option), University of Lagos. Based in Ab
 
 ---
 
-### Live products
-
-#### [NofoDesk](https://nofodesk.com) · the app that reads a funding call so nobody has to retype it
-
-A funding call arrives as forty pages of PDF. The deadline, the award ceiling, who is eligible
-and which attachments are mandatory are all buried in it, and every grant office I know pays
-someone to find them and retype them into a spreadsheet. NofoDesk reads the call instead - paste
-the URL or drop the PDF and it returns the whole record in about thirty seconds, then tracks the
-deadline, generates the application checklist, assesses your organisation against the eligibility
-criteria, and drafts proposal sections in the funder's own language.
-
-`React` `Node + Express` `Supabase` `PostgreSQL` `Gemini 2.5 Flash` `Brave Search` `Tesseract OCR` `Server-Sent Events` `Zod` `ExcelJS + PptxGenJS`
-
-Scanned documents with no text layer are rasterised and run through OCR rather than failing.
-Every extraction is validated against a strict schema and reviewed by a person before it reaches
-the tracker - a confidently wrong deadline is worse than no deadline.
-
-This is the job I do during the day, so I am also the user. Every field it pulls out is a field
-I have retyped by hand.
+### Live product
 
 #### [TailorDesk](https://tailordesk.ng) · the app that runs a tailoring business from a phone
 
@@ -84,8 +66,7 @@ agreements.
   extension letter sorting and tracker updates.
 - A Power Automate workflow for the organisation-wide Employee of the Month nomination process.
 
-It is not software work, but it is where I learned to ship things that get audited - and it is
-where NofoDesk came from.
+It is not software work, but it is where I learned to ship things that get audited.
 
 ---
 
@@ -115,7 +96,7 @@ local model deployment (Ollama)
 
 ### About the source
 
-Both products are closed-source and running in production. I am happy to walk through the
+TailorDesk is closed-source and running in production. I am happy to walk through the
 codebase or arrange read access as part of a hiring or funding conversation - just ask.
 
 [fawehinmioreoluwa@gmail.com](mailto:fawehinmioreoluwa@gmail.com) ·
